@@ -48,7 +48,7 @@ Previewed schema members:
 {% if preview.updates %}
 {% for update in preview.updates %}
 **Updated:** [{{ update.date }}]({{ update.url }})
-{% endfor %}
+{% endfor %}.
 {% endif %}
 
 {% endfor %}
